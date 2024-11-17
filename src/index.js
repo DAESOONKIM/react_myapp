@@ -8,7 +8,7 @@ import ReTest from './ReTest';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ReTest />
+    <App />
   </React.StrictMode>
 );
 
