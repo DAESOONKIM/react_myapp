@@ -2,7 +2,8 @@
 import './App.css';
 // import Hello from './01/Hello';
 // import MyClock from './02/MyClock';
-import MyDiv1 from './03/MyDiv1';
+// import MyDiv1 from './03/MyDiv1';
+import MyList from './04/MyList';
 import { RiHomeHeartFill } from 'react-icons/ri';
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <p><RiHomeHeartFill/></p>
       </header>
       <main className='grow w-full flex justify-center items-center overflow-auto'>
-          <MyDiv1/>
+          {/* <MyDiv1/> */}
+          <MyList/>
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
           ㈜ Kim Na Eun
